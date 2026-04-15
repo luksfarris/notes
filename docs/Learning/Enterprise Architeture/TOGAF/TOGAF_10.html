@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Learning/Enterprise Architeture/TOGAF/TOGAF_10" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">TOGAF 10 | Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://luksfarris.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://luksfarris.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://luksfarris.github.io/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="TOGAF 10 | Docs"><meta data-rh="true" name="description" content="Notes from udemy course &quot;Enterprise Architecture Foundation with the TOGAF Standard&quot; by Palladio Consulting (Dr. Christopher Schulza and Tobias Smuda). Exam 40 basic single choice questions, 60 minutes, Closed book (no access to any materials), Pass mark is 60% (24 correct answers). Can be booked with Pearson Vue. Takes place at a tets center, or remotely with video surveying."><meta data-rh="true" property="og:description" content="Notes from udemy course &quot;Enterprise Architecture Foundation with the TOGAF Standard&quot; by Palladio Consulting (Dr. Christopher Schulza and Tobias Smuda). Exam 40 basic single choice questions, 60 minutes, Closed book (no access to any materials), Pass mark is 60% (24 correct answers). Can be booked with Pearson Vue. Takes place at a tets center, or remotely with video surveying."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://luksfarris.github.io/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"><link data-rh="true" rel="alternate" href="https://luksfarris.github.io/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10" hreflang="en"><link data-rh="true" rel="alternate" href="https://luksfarris.github.io/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Learning","item":"https://luksfarris.github.io/docs/category/learning"},{"@type":"ListItem","position":2,"name":"TOGAF 10","item":"https://luksfarris.github.io/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"}]}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.96b111e7.css">
+<script src="/assets/js/runtime~main.206c75e7.js" defer="defer"></script>
+<script src="/assets/js/main.bcbb2b79.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"></a><a href="https://farris.com.br" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Farris</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/category/learning">Notebooks</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/docs/category/learning"><span title="Learning" class="categoryLinkLabel_W154">Learning</span></a><button aria-label="Collapse sidebar category &#x27;Learning&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Azure/AZ-900_Azure_Fundamentals"><span title="Azure" class="categoryLinkLabel_W154">Azure</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Development/AI DLC"><span title="Development" class="categoryLinkLabel_W154">Development</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"><span title="Enterprise Architeture" class="categoryLinkLabel_W154">Enterprise Architeture</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"><span title="TOGAF" class="categoryLinkLabel_W154">TOGAF</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10"><span title="TOGAF 10" class="linkLabel_WmDU">TOGAF 10</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/Learning/Enterprise Architeture/TOGAF/personal_note"><span title="Personal Note" class="linkLabel_WmDU">Personal Note</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/Learning/Enterprise Architeture/ai_architecture"><span title="Handbook For AI/ML Architecture" class="linkLabel_WmDU">Handbook For AI/ML Architecture</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/Learning/Enterprise Architeture/data_governance"><span title="Data Governance" class="linkLabel_WmDU">Data Governance</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Industry/Retail Intro"><span title="Industry" class="categoryLinkLabel_W154">Industry</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Machine Learning/Transformers_and_LLMs_Stanford_CME295"><span title="Machine Learning" class="categoryLinkLabel_W154">Machine Learning</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Management/Change Management"><span title="Management" class="categoryLinkLabel_W154">Management</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/Learning/Others/Polish Labour Law/creativework"><span title="Others" class="categoryLinkLabel_W154">Others</span></a></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/learning"><span>Learning</span></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Enterprise Architeture</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">TOGAF</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">TOGAF 10</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>TOGAF 10</h1></header>
+<p>Notes from udemy course &quot;Enterprise Architecture Foundation with the TOGAF Standard&quot; by Palladio Consulting (Dr. Christopher Schulza and Tobias Smuda). Exam: TOGAF Enterprise Architecture Foundation (part 1): 40 basic single choice questions, 60 minutes, Closed book (no access to any materials), Pass mark is 60% (24 correct answers). Can be booked with Pearson Vue. Takes place at a tets center, or remotely with video surveying.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction-to-enterprise-architecture">Introduction To Enterprise Architecture<a href="#introduction-to-enterprise-architecture" class="hash-link" aria-label="Direct link to Introduction To Enterprise Architecture" title="Direct link to Introduction To Enterprise Architecture" translate="no">​</a></h2>
+<p><strong>Enterprise</strong> may mean the entire enterprise, or an area of the business. May also include multiple business, clients, partners, units, departments, etc. An enterprise may maintain several different architectures, or one.</p>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li class="">(IEEE) the fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution</li>
+<li class="">(TOGAF) the structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-domains">Architecture Domains<a href="#architecture-domains" class="hash-link" aria-label="Direct link to Architecture Domains" title="Direct link to Architecture Domains" translate="no">​</a></h3>
+<ul>
+<li class="">Business architecture: business strategy, governance, organization, and key processes.<!-- -->
+<ul>
+<li class="">Capabilities, processes, value streams, information concepts, organizational structure</li>
+<li class="">Artifacts: Business Capability Map, Value Stream Map, Org Map, ...</li>
+</ul>
+</li>
+<li class="">Data architecture: conceptual, logical, physical data assets, and data management resources.<!-- -->
+<ul>
+<li class="">Data objects, data management resources, data objects</li>
+<li class="">Artifacts: Data Dissemination Diagram, Data Entity/Business Function Matrix, Application / Data Matrix, ...</li>
+</ul>
+</li>
+<li class="">Application architecture: blueprint for app deployment, interactions, and relationships to the business.<!-- -->
+<ul>
+<li class="">apps, interfaces, app domains, app functions, app services</li>
+<li class="">App portfolio catalog, Application communication diagram, Application / Organization matrix, ...</li>
+</ul>
+</li>
+<li class="">Technology architecture: logical software and hardware infrastructure to support the business, data, and applications.<!-- -->
+<ul>
+<li class="">IT infrastructure, networks, middleware, cloud services, runtime environments</li>
+<li class="">Technology portfolio catalog, Platform decomposition diagram, Environments &amp; Location diagram, ...</li>
+</ul>
+</li>
+</ul>
+<p>The last 3 are called the &quot;IT architecture&quot;. Each architecture can be described/visualized by a set of artifacts (diagrams).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-states">Architecture States<a href="#architecture-states" class="hash-link" aria-label="Direct link to Architecture States" title="Direct link to Architecture States" translate="no">​</a></h3>
+<ul>
+<li class="">Baseline Architecture: current state, reference for future changes</li>
+<li class="">Target Architecture: future state that has been approved by stakeholders</li>
+<li class="">Transition Architecture: fully functional state that partially realizes the target. Can have many of these.</li>
+<li class="">Resting architecture: state where the org receives value if all change activity is suspended.</li>
+<li class="">Candidate architecture: unapproved target architecture.</li>
+</ul>
+<p>Baseline and target are the most important ones. There&#x27;s always a baseline, not the others.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="scope-of-architecture">Scope Of Architecture<a href="#scope-of-architecture" class="hash-link" aria-label="Direct link to Scope Of Architecture" title="Direct link to Scope Of Architecture" translate="no">​</a></h3>
+<ul>
+<li class="">Enterprise Scope (breadth): what is the extent of the enterprise that is covered by the architecture.</li>
+<li class="">Level Of Detail (depth): how deep should the architecture go</li>
+<li class="">Domains: which domains (out of the four) are being covered</li>
+<li class="">Time Horizon: what time period needs to be covered by the vision.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-levels">Architecture Levels<a href="#architecture-levels" class="hash-link" aria-label="Direct link to Architecture Levels" title="Direct link to Architecture Levels" translate="no">​</a></h3>
+<p>Divide the enterprise landscape into three levels of granularity:</p>
+<ul>
+<li class="">Strategic Architecture: provides direction-setting at the Executive level. Covers the full enterprise, with low level of detail, and high scope/breadth.</li>
+<li class="">Segment Architecture: provides direction at a program/portfolio level. Has a mid level of detail, time, and scope.</li>
+<li class="">Capability Architecture: effectively supports roadmaps by providing capability increments. High level of detail, small breath (one process), and small time period.</li>
+</ul>
+<p>You can have one strategic architecture, supported by many segment architectures, each supported by many capability architectures.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-partitions">Architecture Partitions<a href="#architecture-partitions" class="hash-link" aria-label="Direct link to Architecture Partitions" title="Direct link to Architecture Partitions" translate="no">​</a></h3>
+<p>A slice of the architecture landscape, with defined boundaries, and a common team and governance. Each team owns one or more partitions.</p>
+<p>The partitioning model should reflect the operating model of the enterprise. This allows conflict management, parallelization, re-use, and complexity management/governance.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-abstraction-levels">Architecture Abstraction Levels<a href="#architecture-abstraction-levels" class="hash-link" aria-label="Direct link to Architecture Abstraction Levels" title="Direct link to Architecture Abstraction Levels" translate="no">​</a></h3>
+<p>From high-level to more detailed:</p>
+<ul>
+<li class="">Contextual: why is it needed. Understands the environment.</li>
+<li class="">Conceptual: what functionality needs to be met. Understands the problem.</li>
+<li class="">Logical: how should the functionality be structured (implementation-independent)</li>
+<li class="">Physical: with what assets should it be implemented. Meets the logical components.</li>
+</ul>
+<p>Abstraction levels are not to be confused with architecture levels. An architecture level can be described with all four abstraction levels.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-blocks-abb">Building Blocks (ABB)<a href="#building-blocks-abb" class="hash-link" aria-label="Direct link to Building Blocks (ABB)" title="Direct link to Building Blocks (ABB)" translate="no">​</a></h3>
+<p>Potentially reusable component of an architecture. Package of functionality that meets a business need. Normally corresponds to a Metamodel (actor, business service, application, data entity, ...).
+Can be defined at different levels of detail, and can lead to improvements in integration and interoperability. An org must decide how to use building blocks.</p>
+<p>A good building block:</p>
+<ul>
+<li class="">considers implementation and usage, and evolves with tech and standards</li>
+<li class="">is re-usable, replaceable, and well specified</li>
+<li class="">may be assemble from, and help assemble, other building blocks</li>
+<li class="">may interoperate with other building blocks, based on a published, stable interface</li>
+<li class="">should have defined boundaries and specs, loosely coupled with their implementation.</li>
+</ul>
+<p>There are two types of building blocks:</p>
+<ul>
+<li class="">Architecture Building Block (ABB): Logical architectural component that describes a capability</li>
+<li class="">Solution Building Block (SBB): Physical implementation component, that realizes a capability</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-togaf-standard">The TOGAF Standard<a href="#the-togaf-standard" class="hash-link" aria-label="Direct link to The TOGAF Standard" title="Direct link to The TOGAF Standard" translate="no">​</a></h3>
+<p>Community-driven (although only supplier orgs who pay can participate), proven, best-practices standard, to implement any kind of architecture in any context.</p>
+<p>It describes a standard cycle of change. Used to plan, develop, implement, govern, change and sustain architecture. Supports agile enterprises, digital transformation, etc.</p>
+<p>Adds value, standardizes, and de-risks architecture development. Results are consistent, reflect stakeholder needs, and considers current and future business needs.</p>
+<p>Framework is generic, and works well with other frameworks (e.g., ITIL for IT service, COBIT for governance, PRINCE for project management). It may also be used standalone.</p>
+<p>The standard consists of:</p>
+<ul>
+<li class="">TOGAF Fundamental Content: 6 docs on core concepts, the ADM, capability, and governance</li>
+<li class="">TOGAF Series Guides: guidance to support specific needs</li>
+</ul>
+<p>All documents are open and free, on the <a href="https://publications.opengroup.org/togaf-library" target="_blank" rel="noopener noreferrer" class="">TOGAF library</a>, requires log in though.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ea-purpose-and-benefits">EA Purpose and Benefits<a href="#ea-purpose-and-benefits" class="hash-link" aria-label="Direct link to EA Purpose and Benefits" title="Direct link to EA Purpose and Benefits" translate="no">​</a></h3>
+<p><strong>Purpose</strong>: Manage complexity and risk, optimize fragmented legacy components, allowing responsiveness to change. Balance between transformation and operation efficiency. Basically, to document and guide effective change (what to do, what to change).</p>
+<p><strong>Benefits</strong>: return on current investment, digital transformation, decision-making, better operations, better procurement, better balance between demands.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-development-method-adm">Architecture Development Method (ADM)<a href="#architecture-development-method-adm" class="hash-link" aria-label="Direct link to Architecture Development Method (ADM)" title="Direct link to Architecture Development Method (ADM)" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="adm phases" src="/assets/images/adm-ea9593e6873e051909e7069680251b76.png" width="782" height="1035" class="img_ev3q"></p>
+<blockquote>
+<p>ADM phases <a href="https://www.opengroup.org/togaf" target="_blank" rel="noopener noreferrer" class="">[source]</a></p>
+</blockquote>
+<p>Step-by-step approach of 10 phases, arranged in an 8-phase cycle. Each phases is subdivided into steps. Not a waterfall, as there is not a specific sequence to be followed.</p>
+<ul>
+<li class="">Preliminary Phase: creates the architecture capability, define principles, teams, processes</li>
+<li class="">A) Architecture Vision: define scope, vision, and stakeholders</li>
+<li class="">B) Business Architecture: develop business architecture (baseline and target)</li>
+<li class="">C) Information Systems Architectures: develop data and application architectures (baseline and target)</li>
+<li class="">D) Technology Architecture: develop technology architecture (baseline and target)</li>
+<li class="">E) Opportunities and Solutions: initial implementation planning</li>
+<li class="">F) Migration Planning: how to move from baseline to target, final migration plan</li>
+<li class="">G) Implementation Governance: oversight of architecture implementation</li>
+<li class="">H) Architecture Change Management: procedures for managing change to the new architecture</li>
+<li class="">Requirements Management: continuous process to manage changes to requirements</li>
+</ul>
+<p>Each phase generates outputs (artifacts), and have defined statuses. Outputs are not final, and may be updated.</p>
+<p>A first ADM draft is created on phase A, then finalized on phase F.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="artifacts-and-deliverables">Artifacts And Deliverables<a href="#artifacts-and-deliverables" class="hash-link" aria-label="Direct link to Artifacts And Deliverables" title="Direct link to Artifacts And Deliverables" translate="no">​</a></h3>
+<p>There are three types of artifacts: Catalogs (lists), Diagrams, or Matrices (relationships).</p>
+<p>Deliverables represent the output of projects. A work product, contractually specified, and formally reviewed and approved. Usually a document (archive of the completion of a project), and stored in an Architecture Repository. Deliverables contain several artifacts.</p>
+<p>A deliverable can either be a Draft, or Approved. Approved doesn&#x27;t mean finalized, as it may still be updated.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-concepts">Key Concepts<a href="#key-concepts" class="hash-link" aria-label="Direct link to Key Concepts" title="Direct link to Key Concepts" translate="no">​</a></h3>
+<p>TOGAF-10 adopts the <a href="http://www.iso-architecture.org/ieee-1471/cm/" target="_blank" rel="noopener noreferrer" class="">ISO 42010 Conceptual Model</a> standard for its concepts:</p>
+<p><img decoding="async" loading="lazy" alt="ISO 42010 CM diagram with core concepts" src="/assets/images/42010-core-2ed-bf33f39f8614e013ba82771a25565b38.png" width="1674" height="1585" class="img_ev3q"></p>
+<blockquote>
+<p>ISO 42010 CM diagram with core concepts <a href="http://www.iso-architecture.org/ieee-1471/cm/" target="_blank" rel="noopener noreferrer" class="">[source]</a></p>
+</blockquote>
+<p>Conceptual Model:</p>
+<ul>
+<li class="">Stakeholder: individual, team or org with an interest in the system</li>
+<li class="">Concern: interest in the system relevant to a stakeholder. Leads ot requirements</li>
+<li class="">Architecture Viewpoint: perspective from which a system can be viewed. Sometimes called definition or schema. It is generic and reusable, and catalogued under a viewpoint library.</li>
+<li class="">Architecture View: representation of a system, from the perspective of a viewpoint, to address concerns. Communicates the architecture to stakeholders.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="preliminary-phase">Preliminary Phase<a href="#preliminary-phase" class="hash-link" aria-label="Direct link to Preliminary Phase" title="Direct link to Preliminary Phase" translate="no">​</a></h2>
+<p><strong>Purposes &amp; Objectives</strong>: create an Architecture Capability, and define Architecture Principles.</p>
+<p><em>Note: Architecture Capability is like a meta-concept, it&#x27;s the enterprise&#x27;s ability to execute architecture work. In details processes, roles, and structures that support architecture work. It may include a Board of Architects, a compliance framework, architecture contracts, governance, maturity, skills, etc.</em></p>
+<p>Steps:</p>
+<ol>
+<li class="">Scope the organizations impacted</li>
+<li class="">Confirm governance and support frameworks</li>
+<li class="">Define and establish the EA team and organization</li>
+<li class="">Identify and establish the Architecture Principles</li>
+<li class="">Tailor the TOGAF framework</li>
+<li class="">Develop a strategy and implementation plan for tools and techniques</li>
+</ol>
+<p><em>You don&#x27;t need to know the steps to pass the Part 1 certification. Only for Part 2</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-principles">Architecture Principles<a href="#architecture-principles" class="hash-link" aria-label="Direct link to Architecture Principles" title="Direct link to Architecture Principles" translate="no">​</a></h3>
+<p>Guide an architecture process. May differentiate between Business, Data, Application, and Technology principles. Intended to be enduring and rarely changed. Require consensus. Typically developed by the architects, approved by a board. Principles are future-oriented, and should be very few.</p>
+<p>Principles are catalogued on a Principle Repository, and can be organized in a hierarchy. There are enterprise principles (least granular), segment principles, and architecture principles (most granular). There are two types of principles:</p>
+<ul>
+<li class=""><strong>Enterprise Principle</strong>: cross-org principles to inform decision-making.</li>
+<li class=""><strong>Architecture Principle</strong>: relate to architecture work, and govern its processes.</li>
+</ul>
+<p>There is a standard way to document principles, with 4 fields: <strong>Name</strong> (simple essence), <strong>Statement</strong> (unambiguous rule), <strong>Rationale</strong> (benefits of adhering), <strong>Implications</strong> (requirements in terms of resources, costs, activities). Example:</p>
+<table><thead><tr><th>Name</th><th>Statement</th><th>Rationale</th><th>Implications</th></tr></thead><tbody><tr><td>Compliance With Law</td><td>Enterprise information processes comply with all relevant regulations</td><td>Policy is to abide by the law.</td><td>Comply with data retention regulations; provide education and access to rules; adapt business according to changes in the law</td></tr></tbody></table>
+<p>Good principles are:</p>
+<ul>
+<li class="">Complete: well defined in any situation</li>
+<li class="">Consistent: no contradictions</li>
+<li class="">Stable: enduring, yet able to adapt</li>
+<li class="">Understandable: intentions are clear, violations are minimal</li>
+<li class="">Robust: enables good and consistent decisions</li>
+</ul>
+<p>Good principles: enable decision making, align the enterprise, support governance, reflect value and culture.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach">General Approach<a href="#general-approach" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ol>
+<li class="">Define the enterprise (higher level of description)</li>
+<li class="">Identify key drivers and organizational context</li>
+<li class="">Define the requirements for architecture work</li>
+<li class="">Define the Architecture Principles</li>
+<li class="">Define the framework to be used</li>
+<li class="">Define the relationship between all management frameworks</li>
+<li class="">Evaluate the enterprise maturity (<em>there is a small guide on the Library <a href="https://publications.opengroup.org/g203" target="_blank" rel="noopener noreferrer" class="">TOGAF® Series Guide: Architecture Maturity Models</a></em>)</li>
+<li class="">Determine the Architecture Capability desired by the organization</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-vision-phase-a">Architecture Vision Phase A<a href="#architecture-vision-phase-a" class="hash-link" aria-label="Direct link to Architecture Vision Phase A" title="Direct link to Architecture Vision Phase A" translate="no">​</a></h2>
+<p><strong>Purposes &amp; Objectives</strong>: defines scope, stakeholders, concerns, develops a high-level aspirational <strong>Architecture Vision</strong>, and obtain approval for a Statement of Architecture Work (which contains the vision).</p>
+<p>Steps:</p>
+<ol>
+<li class="">Establish the architecture project</li>
+<li class="">Identify stakeholders, concerns, and business requirements</li>
+<li class="">Confirm and elaborate business goals, drivers, and constraints</li>
+<li class="">Evaluate capabilities</li>
+<li class="">Assess readiness for business transformation (<em>see <a href="https://publications.opengroup.org/g212" target="_blank" rel="noopener noreferrer" class="">TOGAF® Series Guide: Digital Technology Adoption: A Guide to Readiness Assessment and Roadmap Development
+</a></em>)</li>
+<li class="">Define scope</li>
+<li class="">Confirm and elaborate Architecture Principles</li>
+<li class="">Develop Architecture Vision</li>
+<li class="">Define Target Architecture value proposition and KPIs</li>
+<li class="">Identify transformation risks and mitigation activities</li>
+<li class="">Develop Statement of Architecture Work, secure approval</li>
+</ol>
+<p><em>(reminder that steps are not part of the Part 1 Exam.)</em></p>
+<p>Next we are going to look at each deliverable of this phase.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="request-for-architecture-work">Request For Architecture Work<a href="#request-for-architecture-work" class="hash-link" aria-label="Direct link to Request For Architecture Work" title="Direct link to Request For Architecture Work" translate="no">​</a></h3>
+<p>Architecture Vision work starts from a Request For Architecture Work, generated in the preliminary phase. It&#x27;s a high-level, 5-chapter document that lists:</p>
+<ul>
+<li class="">Organization sponsors, mission statement, budget, constraints</li>
+<li class="">Business goals, strategy, changes in environment, constraints</li>
+<li class="">Business systems, IT systems, and architecture description</li>
+<li class="">Developing organization including resources</li>
+</ul>
+<p>There is a template online for it. The ADR phases A-G use this as input.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="communications-plan">Communications Plan<a href="#communications-plan" class="hash-link" aria-label="Direct link to Communications Plan" title="Direct link to Communications Plan" translate="no">​</a></h3>
+<p>Allows communication of the architecture within a managed process. It&#x27;s a document detailing stakeholders or groups, information (e.g., vision, risks, success factors), mechanisms (channel), and timetable (i.e., who receives what, when).</p>
+<p>There is a free template for this too. It&#x27;s used as input for phases B-F.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-scenario-technique">Business Scenario Technique<a href="#business-scenario-technique" class="hash-link" aria-label="Direct link to Business Scenario Technique" title="Direct link to Business Scenario Technique" translate="no">​</a></h3>
+<p>Technique to identify, document, and approve business requirements. Derive the characteristics of the architecture from the high-level business requirements. Can be applied to very general or very specific business problems. There is a template for this too. They contain the following key elements:</p>
+<ul>
+<li class="">Business problem</li>
+<li class="">Business and Technology environment</li>
+<li class="">Desired outcomes</li>
+<li class="">Human actors</li>
+<li class="">Computer actors</li>
+</ul>
+<p>Good business scenarios are SMART: Specific, Measurable, Actionable, Realistic, Time-bound. Business scenarios are like a snapshot of the business today, and should be updated as the business changes. Business scenarios are captured in phases: Plan &gt; Gather Information &gt; Analyze &gt; Document &gt; Review.</p>
+<p>This is related, but different, from other techniques like Use-Cases (OMG), Business Models, SPIN (Situation, Problem, Implication, Need-payoff), Engineering Specs (IEEE).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-requirements-specification">Architecture Requirements Specification<a href="#architecture-requirements-specification" class="hash-link" aria-label="Direct link to Architecture Requirements Specification" title="Direct link to Architecture Requirements Specification" translate="no">​</a></h3>
+<p>A deliverable created in phase A, Architecture Vision. It defines:</p>
+<ul>
+<li class="">Architecture, Interoperability, IT Service Management requirements</li>
+<li class="">Business and Application service contracts</li>
+<li class="">Implementation guidelines, specifications, standards</li>
+<li class="">Success measures, constraints, assumptions</li>
+</ul>
+<p>There is a free template for this too in the TOGAF library. This deliverable is further drafted in the following ADR phases. It is finalized in the phase F (migration planning).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-principles-goals-and-drivers">Business Principles, Goals, and Drivers<a href="#business-principles-goals-and-drivers" class="hash-link" aria-label="Direct link to Business Principles, Goals, and Drivers" title="Direct link to Business Principles, Goals, and Drivers" translate="no">​</a></h3>
+<p>These vary considerably across enterprises. There is a template for this too, it&#x27;s just a systemized way to capture the three elements: principles, goals, and drivers.  These are used and validated in steps B-D.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="capability-assessment">Capability Assessment<a href="#capability-assessment" class="hash-link" aria-label="Direct link to Capability Assessment" title="Direct link to Capability Assessment" translate="no">​</a></h3>
+<p>A capability can be assessed on different levels: Business Capability Assessment, IT Capability Assessment, Architecture Maturity Assessment, and Business Transformation Readiness Assessment. There is a template in the library for this too. These are used as input for phases B-G to understand readiness and gaps.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-transformation-readiness-assessment">Business Transformation Readiness Assessment<a href="#business-transformation-readiness-assessment" class="hash-link" aria-label="Direct link to Business Transformation Readiness Assessment" title="Direct link to Business Transformation Readiness Assessment" translate="no">​</a></h4>
+<p>The approach for this is to undertake five activities:</p>
+<ol>
+<li class="">Determine the readiness factors to be assessed</li>
+<li class="">Present the readiness using maturity models</li>
+<li class="">Assess (rate) the readiness factors</li>
+<li class="">Assess the risk for each readiness rating, and determine mitigation actions</li>
+<li class="">Work these actions on phases E-F</li>
+</ol>
+<p>There are several maturity templates available (ex: maturity model for data architecture).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-vision">Architecture Vision<a href="#architecture-vision" class="hash-link" aria-label="Direct link to Architecture Vision" title="Direct link to Architecture Vision" translate="no">​</a></h3>
+<p>Value to be delivered by the project. Contains a problem description, an objective of the Statement of Architecture Work, Summary views, and mapped requirements and reference to draft the Architecture Definition Document. There is a template for this too in the Library. The vision document is used in phases B-D. It can later be updated.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-definition-document">Architecture Definition Document<a href="#architecture-definition-document" class="hash-link" aria-label="Direct link to Architecture Definition Document" title="Direct link to Architecture Definition Document" translate="no">​</a></h3>
+<p>Qualitative view of the solution, communicates the intent of the project (whereas the requirements specification is quantitative). It contains:</p>
+<ul>
+<li class="">Scope, Goals, Objectives and Constraints, Architecture Principles, Baseline &amp; Target Architectures, Gap Analysis, Impact Assessment</li>
+<li class="">Architecture Models for all domains</li>
+<li class="">Rationale and justification</li>
+<li class="">Mapping to Architecture Repository</li>
+<li class="">Transition architectures</li>
+</ul>
+<p>There is a template for this document. Artifacts in this document describe building blocks. Only a draft is created on phase A, and then throughout phases B-D it is updated and reviewed. It is finalized in phase F., and then used/updated.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="statement-of-architecture-work">Statement of Architecture Work<a href="#statement-of-architecture-work" class="hash-link" aria-label="Direct link to Statement of Architecture Work" title="Direct link to Statement of Architecture Work" translate="no">​</a></h3>
+<p>Last step of phase A. It serves as a contract between the architecture team and the stakeholders/sponsors. It contains:</p>
+<ul>
+<li class="">Title, approvals, change of scope procedures</li>
+<li class="">Project request, background, description, scope, plan, and schedule</li>
+<li class="">Acceptance criteria, procedures, roles, responsibilities, and deliverables</li>
+<li class="">Overview of Architecture Vision</li>
+</ul>
+<p>There is a free 9-chapter template for this too. This is used on all phases, and updated as needed.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-1">General Approach<a href="#general-approach-1" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Receive request for architecture work.</li>
+<li class="">Define what&#x27;s in and out the scope of the effort</li>
+<li class="">Understand the business and architecture principles, goals, and drivers</li>
+<li class="">Describe (high level) baseline and target architectures for all domains</li>
+<li class="">Create the Statement of Architecture Work (including an overview of the Architecture Vision)</li>
+<li class="">Use Architecture Vision to communicate and get sponsorship for the work</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-architecture-phase-b">Business Architecture Phase B<a href="#business-architecture-phase-b" class="hash-link" aria-label="Direct link to Business Architecture Phase B" title="Direct link to Business Architecture Phase B" translate="no">​</a></h2>
+<p>The business architecture supports the architecture vision. It shows how the business fails to meet the stakeholder&#x27;s needs. It also identifies which changes are required to meet those needs. Finally, it defines Work Packages to achieve the necessary changes. Work Packages must always make sense in a cost-benefit analysis. The next phases B-D have analogous purposes.</p>
+<p>There are two objectives: develop a Target Business Architecture, and identify candidate Architecture Roadmap components based on the gaps between current and target states.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps">Steps<a href="#steps" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">Select reference models, viewpoints, and tools</li>
+<li class="">Develop Baseline Business Architecture</li>
+<li class="">Develop Target Business Architecture</li>
+<li class="">Perform gap analysis</li>
+<li class="">Define candidate roadmap components</li>
+<li class="">Resolve impacts across the entire architecture Landscape</li>
+<li class="">Conduct formal stakeholder review</li>
+<li class="">Finalize the Business Architecture</li>
+<li class="">Update Architecture Definition Document</li>
+</ol>
+<p><em>(not needed for Part 1 Exam)</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="gap-analysis">Gap Analysis<a href="#gap-analysis" class="hash-link" aria-label="Direct link to Gap Analysis" title="Direct link to Gap Analysis" translate="no">​</a></h3>
+<p>Gaps define what must be changed in the enterprise. They can be found on all four architecture domains. To understand gaps, you create a Gap Analysis Matrix (rows are baseline architecture ABBs, cols are Target architecture ABBs). Add a new row &quot;New&quot; and a new column &quot;Eliminated&quot;. Fill the cells accordingly.</p>
+<p>The Gap analysis is relevant for phases B-D, in other words, for all four domains. In these phases we define candidate components that address the gaps. Then in phase E we review and consolidate the gap analysis.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-2">General Approach<a href="#general-approach-2" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Research, verify, and gain buy-in to key business objectives</li>
+<li class="">Use and update documents from phase A</li>
+<li class="">Determine if the fundamental view of the business is changing</li>
+<li class="">Develop business architecture models:<!-- -->
+<ul>
+<li class="">Business Capability Map</li>
+<li class="">Value Stream Model</li>
+<li class="">Organization Map</li>
+<li class="">Business Process Model</li>
+</ul>
+</li>
+<li class="">Use resources from the Architecture Repository</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="information-systems-architecture-phase-c">Information Systems Architecture Phase C<a href="#information-systems-architecture-phase-c" class="hash-link" aria-label="Direct link to Information Systems Architecture Phase C" title="Direct link to Information Systems Architecture Phase C" translate="no">​</a></h2>
+<p><strong>Purposes &amp; Objectives</strong>: divided in two parts: the Application Architecture and the Data Architecture. The purpose is, like before, to define the baseline and target architectures, identify the gaps, and candidate components.</p>
+<p>Steps are the same as for phase B.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="application-architecture-artifacts">Application Architecture Artifacts<a href="#application-architecture-artifacts" class="hash-link" aria-label="Direct link to Application Architecture Artifacts" title="Direct link to Application Architecture Artifacts" translate="no">​</a></h3>
+<p>There are many artifacts (catalogs, diagrams, matrices) that TOGAF recommends for application architecture. Here are a few ones:</p>
+<ul>
+<li class="">Application Portfolio Catalog: list of all applications, with key attributes (e.g., name, description, category, source)</li>
+<li class="">Application Communication Diagram: shows interactions between applications, and the protocols used</li>
+<li class="">Application / Organization Matrix: shows which applications are used by which organizational units</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="data-architecture-artifacts">Data Architecture Artifacts<a href="#data-architecture-artifacts" class="hash-link" aria-label="Direct link to Data Architecture Artifacts" title="Direct link to Data Architecture Artifacts" translate="no">​</a></h3>
+<p>Just like before, there are many artifacts that TOGAF recommends for data architecture. Here are a few ones:</p>
+<ul>
+<li class="">Data / Entity Function Matrix: shows which data entities are owned by which business functions</li>
+<li class="">Logical Data Diagram: shows relationships between critical data entities</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-3">General Approach<a href="#general-approach-3" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">For the application architecture, the TOGAF standard is very vague, and suggest using generic business models from the industry sector</li>
+<li class="">For the data architecture, there are three considerations:<!-- -->
+<ul>
+<li class="">Data Management</li>
+<li class="">Data Migration</li>
+<li class="">Data Governance</li>
+</ul>
+</li>
+<li class="">There are three meta-models to be used for the data architecture (data at rest, in motion, in use, open data, ...):<!-- -->
+<ul>
+<li class="">Data Entity: conceptual model</li>
+<li class="">Logical Data Entity: data model schemas</li>
+<li class="">Physical Data Entity: implemented data models</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="technology-architecture-phase-d">Technology Architecture Phase D<a href="#technology-architecture-phase-d" class="hash-link" aria-label="Direct link to Technology Architecture Phase D" title="Direct link to Technology Architecture Phase D" translate="no">​</a></h2>
+<p>To develop baseline and target technology architectures, identify gaps, and candidate components. Steps are the same as for phase B.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="technology-architecture-artifacts">Technology Architecture Artifacts<a href="#technology-architecture-artifacts" class="hash-link" aria-label="Direct link to Technology Architecture Artifacts" title="Direct link to Technology Architecture Artifacts" translate="no">​</a></h3>
+<ul>
+<li class="">Technology Portfolio Catalog: list of all technology components (e.g., name, description, date, category). Usually the first step</li>
+<li class="">Platform Decomposition Diagram: depicts the technology used in each platform. May include specs</li>
+<li class="">Environments &amp; Location Diagram: what technologies are used at which locations (site).</li>
+</ul>
+<p>There are many more artifacts available.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="opportunities-and-solutions-phase-e">Opportunities And Solutions Phase E<a href="#opportunities-and-solutions-phase-e" class="hash-link" aria-label="Direct link to Opportunities And Solutions Phase E" title="Direct link to Opportunities And Solutions Phase E" translate="no">​</a></h2>
+<p>At this point target architectures are solution-independent. Now it&#x27;s time to find the solutions that implement the building blocks.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose-and-objectives">Purpose And Objectives<a href="#purpose-and-objectives" class="hash-link" aria-label="Direct link to Purpose And Objectives" title="Direct link to Purpose And Objectives" translate="no">​</a></h3>
+<p>The purpose is to find Solution Building Blocks (SBB) that implement the Architecture Building Blocks (ABB) defined in phases B-D. This also means identifying dependencies and vehicles (projects, programs, portfolios). Each Work Package is evaluated by its value, effort and risk and then prioritized. The output is: Work packages, Addressed gaps, Added value, Required effort, and Dependencies.</p>
+<p>The objectives are:</p>
+<ol>
+<li class="">Generate complete Architecture Roadmap</li>
+<li class="">Determine whether an incremental approach is possible, and its Transition Architectures</li>
+<li class="">Define the SBBs and finalize the Target Architecture</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps-1">Steps<a href="#steps-1" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">Determine or confirm key corporate change attributes</li>
+<li class="">Determine the business constraints implementation</li>
+<li class="">Review and consolidate the gap analysis</li>
+<li class="">Review the consolidated requirements</li>
+<li class="">Reconcile the interoperability requirements</li>
+<li class="">Validate the dependencies</li>
+<li class="">Confirm readiness and risk for transformation</li>
+<li class="">Formulate Implementation and Migration Strategy</li>
+<li class="">Identify and group Work Packages</li>
+<li class="">Identify Transition Architectures</li>
+<li class="">Create Architecture Roadmap And Implementation And Migration Plan</li>
+</ol>
+<p>This phase is the bridge between the target architecture and the solution.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="interoperability-requirements">Interoperability Requirements<a href="#interoperability-requirements" class="hash-link" aria-label="Direct link to Interoperability Requirements" title="Direct link to Interoperability Requirements" translate="no">​</a></h3>
+<p>Interoperability is the ability of two or more systems to exchange information and use it. TOGAF recommends the Enterprise Application Integration (EAI) standard to discuss interoperability:</p>
+<ul>
+<li class="">Presentation Layer: user interfaces, APIs</li>
+<li class="">Information Layer: security, access, structure, quality</li>
+<li class="">Application Layer: infrastructure applications</li>
+<li class="">Technical Layer: services, data storage, data processing, infrastructure</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="risk-management">Risk Management<a href="#risk-management" class="hash-link" aria-label="Direct link to Risk Management" title="Direct link to Risk Management" translate="no">​</a></h3>
+<p>Risk is the effect of uncertainty on objectives (ISO 31000:2009). Risk triggers can come from inside or outside the enterprise. Risk Management is identifying and addressing the risks.</p>
+<p>Risks can have an initial level (prior to mitigation) and a residual level (post mitigation). They can be differentiated between Business Risks and Cyber Risks (IT). Risk assessment is a top-down process:</p>
+<ul>
+<li class="">Risk identification</li>
+<li class="">Risk classification</li>
+<li class="">Initial risk assessment</li>
+<li class="">Risk mitigation</li>
+<li class="">Residual risk assessment</li>
+<li class="">Risk monitoring and governance</li>
+</ul>
+<p>Risk effects can be catastrophic, critical, marginal, or negligible. Risk frequency can be frequent, likely, occasional, seldom, or unlikely. Placing risks along these two axis allows us to label them as High, Extremely High, Moderate, or Low. See an example Risk Classification Scheme matrix below:</p>
+<table><thead><tr><th>-</th><th>Frequent</th><th>Likely</th><th>Occasional</th><th>Seldom</th><th>Unlikely</th></tr></thead><tbody><tr><td>Catastrophic</td><td>E</td><td>E</td><td>H</td><td>H</td><td>M</td></tr><tr><td>Critical</td><td>E</td><td>H</td><td>H</td><td>M</td><td>L</td></tr><tr><td>Marginal</td><td>H</td><td>M</td><td>M</td><td>L</td><td>L</td></tr><tr><td>Negligible</td><td>M</td><td>L</td><td>L</td><td>L</td><td>L</td></tr></tbody></table>
+<p>Risks are validated on phase F, monitored on phase G, and managed on phase H.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-roadmap">Architecture Roadmap<a href="#architecture-roadmap" class="hash-link" aria-label="Direct link to Architecture Roadmap" title="Direct link to Architecture Roadmap" translate="no">​</a></h3>
+<p>Lists all Work Packages and their business value when realizing the target architecture.</p>
+<p>A Work Package includes: Description, Functional Requirements, Dependencies, Value, Relationship to the Architecture Definition Document.</p>
+<p>The roadmap also includes the Implementation Factor Catalog, listing risks, issues, assumptions, dependencies, actions, and inputs.</p>
+<p>The roadmap consolidates tje gap analysis, and the Solutions And Dependencies Matrix. It may include Transition Architectures, and implementation recommendations.</p>
+<p>There is a template in the library. The roadmap is finalized in phase F, and used in phase G.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-and-migration-plan">Implementation And Migration Plan<a href="#implementation-and-migration-plan" class="hash-link" aria-label="Direct link to Implementation And Migration Plan" title="Direct link to Implementation And Migration Plan" translate="no">​</a></h3>
+<p>Aligned with the roadmap, this plan includes a schedule, executable projects, and a strategy. It demonstrates the <em>how</em>.</p>
+<p>There is a template for it too in the library. It&#x27;s also finalized in phase F, and used in phases G and H.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-4">General Approach<a href="#general-approach-4" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Figure out the Work Packages</li>
+<li class="">Figure out the Transition Architectures</li>
+<li class="">Create the Architecture Roadmap</li>
+<li class="">Create the Implementation and Migration Plan</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="migration-planning-phase-f">Migration Planning Phase F<a href="#migration-planning-phase-f" class="hash-link" aria-label="Direct link to Migration Planning Phase F" title="Direct link to Migration Planning Phase F" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose-and-objectives-1">Purpose And Objectives<a href="#purpose-and-objectives-1" class="hash-link" aria-label="Direct link to Purpose And Objectives" title="Direct link to Purpose And Objectives" translate="no">​</a></h3>
+<p>The purpose answers how to move from baseline to target. It finalizes the Implementation And Migration plan, and it estimates the resources required to undertake the change (while ensuring availability). Stakeholder priorities are adjusted if needed. The main output is an approved set of projects (Work Packages). A project includes objectives, constraints, required resources, and a schedule.</p>
+<p>A key objective here, besides finalizing the plan, is to ensure stakeholders understand the value/cost of work packages.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps-2">Steps<a href="#steps-2" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">Confirm management framework interactions</li>
+<li class="">Assign business value to each Work Package</li>
+<li class="">Estimate resource requirements, timings, and delivery vehicles</li>
+<li class="">Prioritize migration projects through a cost/benefit analysis</li>
+<li class="">Confirm the Architecture Roadmap and update the Architecture Definition Document</li>
+<li class="">Complete the Implementation and Migration Plan</li>
+<li class="">Complete the architecture development cycle, and document lessons learned</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-governance-model">Implementation Governance Model<a href="#implementation-governance-model" class="hash-link" aria-label="Direct link to Implementation Governance Model" title="Direct link to Implementation Governance Model" translate="no">​</a></h3>
+<p>This is where we transition from developing, to realizing the enterprise architecture. To do this, we create an Implementation Governance Model. It contains the governance process, the governance organization structure (body) along with their roles and responsibilities, and finally governance checkpoints with success or failure criteria.</p>
+<p>There is a template for this in the library. This document is created in phase F, and applied in phase G.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-5">General Approach<a href="#general-approach-5" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Finalize the Implementation and Migration Plan<!-- -->
+<ul>
+<li class="">Include project-level details</li>
+</ul>
+</li>
+<li class="">Integrate the Architecture Roadmap and the Implementation and Migration Plan with the business&#x27;s change activities</li>
+<li class="">Assess the dependencies, costs, and benefits of the Work Packages</li>
+<li class="">Transition to Implementation Governance and document lessons learned (via a workshop)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-governance-phase-g">Implementation Governance Phase G<a href="#implementation-governance-phase-g" class="hash-link" aria-label="Direct link to Implementation Governance Phase G" title="Direct link to Implementation Governance Phase G" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose-and-objectives-2">Purpose And Objectives<a href="#purpose-and-objectives-2" class="hash-link" aria-label="Direct link to Purpose And Objectives" title="Direct link to Purpose And Objectives" translate="no">​</a></h3>
+<p>Ensure compliance of the implementation. Guide the implementation teams. Manage stakeholder priorities and preferences. The main outputs are the completed projects, and the adjusted target state.</p>
+<p>The goal is simply to ensure the implementation complies with the design. If there are implementation-driven changes, those Change Requests need to go through the governance process too.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps-3">Steps<a href="#steps-3" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">Confirm scope and priories with the development team</li>
+<li class="">Identify deployment resources and skills</li>
+<li class="">Guide development of solutions</li>
+<li class="">Perform compliance reviews</li>
+<li class="">Implement business and IT operations</li>
+<li class="">Perform post-implementation reviews and close the implementation</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-contracts">Architecture Contracts<a href="#architecture-contracts" class="hash-link" aria-label="Direct link to Architecture Contracts" title="Direct link to Architecture Contracts" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-contracts">Development Contracts<a href="#development-contracts" class="hash-link" aria-label="Direct link to Development Contracts" title="Direct link to Development Contracts" translate="no">​</a></h4>
+<p>A way to ensure an implementation conforms to the architecture. It&#x27;s a joint agreement between architects, sponsors, and developers, on the deliverables, quality, and fit-for-purpose of an architecture. Contracts ensure accountability, responsibility, and discipline.</p>
+<p>These contracts are also used in phase H for change management. They are available in the TOGAF library.</p>
+<p>The content of these contracts often vary, usually they are divided into two types:</p>
+<ul>
+<li class="">development contract: includes intro and background, scope, requirements, development process and roles, target measures, deliverable phases, prioritized work plan, time windows, delivery and business metrics.</li>
+<li class="">business contract: intro and background, scope, requirements, adopters, time window, business metrics, and the Service architecture including Service Level Agreement (SLA).</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="statement-of-architecture-work-1">Statement Of Architecture Work<a href="#statement-of-architecture-work-1" class="hash-link" aria-label="Direct link to Statement Of Architecture Work" title="Direct link to Statement Of Architecture Work" translate="no">​</a></h4>
+<p>Created in phase A. Defines the scope and approach of the architecture work. It contains title, approvals, change of scope procedures, project request, background, description, scope, plan, schedule, acceptance criteria, procedures, roles, responsibilities, and deliverables. It also contains an overview of the Architecture Vision.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-design-and-development-contract">Architecture Design And Development Contract<a href="#architecture-design-and-development-contract" class="hash-link" aria-label="Direct link to Architecture Design And Development Contract" title="Direct link to Architecture Design And Development Contract" translate="no">​</a></h4>
+<p>Statement of intent on designing and implementing some parts of the Enterprise Architecture. Usually signed with application providers or system integrators.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-stakeholders-architecture-contract-aka-business-users-architecture-contract">Business Stakeholder&#x27;s Architecture Contract (aka Business Users Architecture Contract)<a href="#business-stakeholders-architecture-contract-aka-business-users-architecture-contract" class="hash-link" aria-label="Direct link to Business Stakeholder&#x27;s Architecture Contract (aka Business Users Architecture Contract)" title="Direct link to Business Stakeholder&#x27;s Architecture Contract (aka Business Users Architecture Contract)" translate="no">​</a></h4>
+<p>Signed between the architecture team and the business stakeholders who will build the solutions.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="contracts-summary">Contracts Summary<a href="#contracts-summary" class="hash-link" aria-label="Direct link to Contracts Summary" title="Direct link to Contracts Summary" translate="no">​</a></h4>
+<ul>
+<li class="">Phase A: Statement Of Architecture Work</li>
+<li class="">Phases B-D: Contracts with app providers, system integrators, system providers</li>
+<li class="">Phase F: Contract between business stakeholders (the ones who will implement) and the architecture team</li>
+<li class="">Phase G: Contracts between architecture team and development teams (in-house or contractors)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="compliance-assessment">Compliance Assessment<a href="#compliance-assessment" class="hash-link" aria-label="Direct link to Compliance Assessment" title="Direct link to Compliance Assessment" translate="no">​</a></h3>
+<p>A process to ensure development is in line with the vision. It also ensures implementation learnings are fed back into the architecture process.  It contains an overview of progress, status, and design. It also includes a checklist of methods and tools.</p>
+<p>There are two types of compliance assessments:</p>
+<ul>
+<li class="">Target Architecture Checklist: it checks the development of the architecture itself. Example questions from the checklist verify if the stakeholders were correct, if the guidance from the superior architecture was taken into account, if the appropriate SMEs agree, etc. Stakeholders must approve this review, otherwise it needs to be reworked or cancelled.</li>
+<li class="">Implementation And Other Changes Checklist: checks the implementation, at specific checkpoints of the project. It&#x27;s a chance to correct any major errors or shortcomings. It asks things like: was the architecture guidance reasonably interpreted, did the SMEs agree with the impact assessment, do they agree with the recommendation, targets, deadlines, etc. The Architect acts as an auditor and architect, and makes recommendations to enforce compliance, provide relief, or even change the Target Architecture.</li>
+</ul>
+<p>Checklist is available on the Series guide: <em>A practitioners approach to developing enterprise architecture following the TOGAF ADM</em>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-6">General Approach<a href="#general-approach-6" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Perform incremental steps towards the Target Architecture, where each step delivers value</li>
+<li class="">Establish implementation program</li>
+<li class="">Adopt a phased deployment schedule</li>
+<li class="">Develop project details (e.g., name, description, acceptance criteria, measures of effectiveness)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-change-management-phase-h">Architecture Change Management Phase H<a href="#architecture-change-management-phase-h" class="hash-link" aria-label="Direct link to Architecture Change Management Phase H" title="Direct link to Architecture Change Management Phase H" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose-and-objectives-3">Purpose And Objectives<a href="#purpose-and-objectives-3" class="hash-link" aria-label="Direct link to Purpose And Objectives" title="Direct link to Purpose And Objectives" translate="no">​</a></h3>
+<p>Ensure the architecture achieves its target and value. Identify gaps in the architecture. Manage necessary changes (prioritize, define requirements). Also, the goal is to update the Target Architecture to address shortfalls.</p>
+<blockquote>
+<p>As one objective, the ADM Phase H ensures that the Enterprise Architecture Capability meets current requirements.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps-4">Steps<a href="#steps-4" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">Establish value realization process (make sure the communicated value is obtained, like shutting down old services)</li>
+<li class="">Deploy monitoring tools</li>
+<li class="">Manage risks (out-of-date software versions, address security vulnerabilities, etc.)</li>
+<li class="">Conduct Enterprise Architecture performance review (is it performing according to requirements)</li>
+<li class="">Develop change requirements if needed</li>
+<li class="">Manage governance process (ensure processes are executed, for example prioritizing change requests)</li>
+<li class="">Activate process to implement change (kick off a new ADM cycle)</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-change-request">The Change Request<a href="#the-change-request" class="hash-link" aria-label="Direct link to The Change Request" title="Direct link to The Change Request" translate="no">​</a></h3>
+<p>Change requests can stem from:</p>
+<ul>
+<li class="">Technology: new technology available, cost reduction, end of life, standard initiatives</li>
+<li class="">Business: business development, business exceptions, innovation, strategy changes</li>
+</ul>
+<p>It&#x27;s a deviation from the previously defined approach, based on knowledge gained or external factors. Change requests contain descriptions and rationale, an impact assessment, and a reference number. There is a template for this in the library. Change requests can be identifier and created on phases E-G, but they are only assessed on phase H.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-7">General Approach<a href="#general-approach-7" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">Establish criteria to evaluate Change Requests</li>
+<li class="">Classify Change Requests as:<!-- -->
+<ul>
+<li class="">Simplification: handled by change management techniques</li>
+<li class="">Incremental: may require partial re-architecture</li>
+<li class="">Re-Architecture: new ADM cycle</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="requirements-management">Requirements Management<a href="#requirements-management" class="hash-link" aria-label="Direct link to Requirements Management" title="Direct link to Requirements Management" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose-and-objectives-4">Purpose And Objectives<a href="#purpose-and-objectives-4" class="hash-link" aria-label="Direct link to Purpose And Objectives" title="Direct link to Purpose And Objectives" translate="no">​</a></h3>
+<p>Documents, evaluates, and distributes architecture requirements. It&#x27;s connected with every other phase, except Preliminary. It drives the ADM, and helps manage requirement changes, by providing clear traceability and visibility (single point of truth).</p>
+<p>It&#x27;s a dynamic process to ensure the requirements process is operational, and that they are available for use as phases get executed.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps-5">Steps<a href="#steps-5" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h3>
+<ol>
+<li class="">(A) Identify requirements, and document them in the Architecture Requirements Specification (within scope) and Requirements Repository (outside scope)</li>
+<li class="">Establish baseline requirements aligned with priorities</li>
+<li class="">Monitor baseline requirements</li>
+<li class="">(B-D) Identify new and changed requirements, reassess their priority</li>
+<li class="">Solve conflicting requirements and Generate Requirements Impact Statement</li>
+<li class="">(E-G) Assess impact of changed requirements. Decide whether to implement changes.</li>
+<li class="">(H) Implement necessary updated requirements</li>
+<li class="">Update the Requirements Repository</li>
+<li class="">(H) Implement changes via implementation projects</li>
+<li class="">Conduct gap analysis, identifying new (gap) requirements, recording them in the Requirements Repository, and revising the target architecture if needed</li>
+</ol>
+<p>Remember that minor maintenance change can be implemented directly (still need to be aligned with architects).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="requirements-impact-assessment">Requirements Impact Assessment<a href="#requirements-impact-assessment" class="hash-link" aria-label="Direct link to Requirements Impact Assessment" title="Direct link to Requirements Impact Assessment" translate="no">​</a></h3>
+<p>Performed in the ADM phases when a change is identified. New information is gathered, and this document will describe the phases to be revisited, the investigation results, recommendations, and references to requirements with their reference numbers.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-approach-8">General Approach<a href="#general-approach-8" class="hash-link" aria-label="Direct link to General Approach" title="Direct link to General Approach" translate="no">​</a></h3>
+<ul>
+<li class="">identify and store requirements</li>
+<li class="">feed in and out of ADM phases</li>
+<li class="">record architecture requirements on the Architecture Requirements Repository</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="applying-adm">Applying ADM<a href="#applying-adm" class="hash-link" aria-label="Direct link to Applying ADM" title="Direct link to Applying ADM" translate="no">​</a></h2>
+<p>ADM is an iterative process, over, between, and within phases.</p>
+<p><img decoding="async" loading="lazy" alt="Iterative TOGAF" src="/assets/images/interative-ac4c9574213ff58f6a2d5e74a7cd5562.png" width="1066" height="998" class="img_ev3q"></p>
+<blockquote>
+<p>Image: example of how parts of ADM can cycle. <a href="http://blogs.malekmakan.com/post/togaf-architecture-development-method" target="_blank" rel="noopener noreferrer" class="">source</a>.</p>
+</blockquote>
+<p>There are 5 cycles:</p>
+<ul>
+<li class="">Iteration through the ADM (phases A-H)</li>
+<li class="">Architecture development iteration (phases B-D)</li>
+<li class="">Architecture capability iteration (in and out of Preliminary stage, from phases A or H)</li>
+<li class="">Architecture governance iteration (phases G-H)</li>
+<li class="">Transition planning iteration (phases E-F)</li>
+</ul>
+<p>This also means an architecture project does not need every single phase, and that certain phases can be repeated, or executed simultaneously. Phases may stay open to produce the needed information. The TOGAF phase diagram represents information flow, not a sequence of execution.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-block-specification-process">Building Block Specification Process<a href="#building-block-specification-process" class="hash-link" aria-label="Direct link to Building Block Specification Process" title="Direct link to Building Block Specification Process" translate="no">​</a></h3>
+<p>Applying the architecture development method means creating and maintaining Building Blocks. Architecture Building Blocks (ABB) meet business goals, and selected ABB&#x27;s become Solution Building Blocks (SBB) which are either purchased or developed in-house.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-trade-off-method-alternative-architectures-and-trade-offs">The Trade-Off Method: alternative architectures and trade-offs<a href="#the-trade-off-method-alternative-architectures-and-trade-offs" class="hash-link" aria-label="Direct link to The Trade-Off Method: alternative architectures and trade-offs" title="Direct link to The Trade-Off Method: alternative architectures and trade-offs" translate="no">​</a></h3>
+<p>The job of the architect is to identify all alternative target architectures, understand them, identify the trade-offs, and present this back to stakeholders. There is a TOGAF method to do this, called the <em>Architecture Trade-Off Method</em>. It&#x27;s just a structured way to choose an alternative based on governing principles and requirements.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="digital-enterprise">Digital Enterprise<a href="#digital-enterprise" class="hash-link" aria-label="Direct link to Digital Enterprise" title="Direct link to Digital Enterprise" translate="no">​</a></h3>
+<p>A digital enterprise is an enterprise that either (1) creates products or services delivered fully digitally, or (2) delivers physical products or services ordered digitally.</p>
+<p>TOGAF supports agile environments by helping teams deliver quicker and better through:</p>
+<ul>
+<li class="">Managing technical debt reactively and proactively</li>
+<li class="">identifying standards and reusable components</li>
+<li class="">providing governance to oversee the reuse of components</li>
+<li class="">simplifying complexity</li>
+<li class="">establishing an enterprise capability that drives operational excellence</li>
+<li class="">institutionalizing agile development methods</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="content-framework--core-concepts">Content Framework &amp; Core Concepts<a href="#content-framework--core-concepts" class="hash-link" aria-label="Direct link to Content Framework &amp; Core Concepts" title="Direct link to Content Framework &amp; Core Concepts" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="content-framework">Content Framework<a href="#content-framework" class="hash-link" aria-label="Direct link to Content Framework" title="Direct link to Content Framework" translate="no">​</a></h3>
+<p>This is just a standardized way to organize the outputs of the ADM. There are many frameworks to choose from (TOGAF Content Framework, Zachman Framework, DoDAF, NAF, etc.). Depends on the architects, and the EA tool being used.</p>
+<p>It just defines which artifacts are required to describe the architecture project. It provides consistency, a checklist of outputs, reduces risks of gaps, and defines standards.</p>
+<p>See this <a href="https://www.visual-paradigm.com/guide/togaf/togaf-adm-and-architecture-content-framework/" target="_blank" rel="noopener noreferrer" class="">blog post</a> for an example.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enterprise-meta-model">Enterprise Meta-model<a href="#enterprise-meta-model" class="hash-link" aria-label="Direct link to Enterprise Meta-model" title="Direct link to Enterprise Meta-model" translate="no">​</a></h3>
+<p>It defines the entities that are involved in architecture work, so that architects can use a common language when describing things. It improves consistency. It&#x27;s enterprise-specific, meaning that each company will need/have a different (high quality) meta-model.</p>
+<p>It can be developed based on stakeholder viewpoints, or based on an established meta-model. Here is <a href="https://www.linkedin.com/pulse/simple-enterprise-metamodel-arron-rouse/" target="_blank" rel="noopener noreferrer" class="">a basic example of a meta-model from Linkedin</a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-repository">Architecture Repository<a href="#architecture-repository" class="hash-link" aria-label="Direct link to Architecture Repository" title="Direct link to Architecture Repository" translate="no">​</a></h3>
+<p>Place where ADM artifacts are stored, and it should contain a formal taxonomy of the outputs so they can be used. Usually this is a document management system or file repository. The difference between this and the Content Framework, is that the Repository is the <em>actual</em> place where artifacts are stored, meanwhile the Content Framework is a <em>guide</em> on what should stored and how its organized.</p>
+<p>See <a href="https://guides.visual-paradigm.com/what-is-architecture-repository-in-togaf/" target="_blank" rel="noopener noreferrer" class="">this post</a> for an example.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enterprise-continuum">Enterprise Continuum<a href="#enterprise-continuum" class="hash-link" aria-label="Direct link to Enterprise Continuum" title="Direct link to Enterprise Continuum" translate="no">​</a></h3>
+<p>Categorization for assets held in an Architecture Repository. It contains two concepts: the Architecture Continuum (for architectures), and the Solutions Continuum (for solutions). Each is a spectrum between generic and specific assets: generic documents should be adapted for use, and specific documents should be generalized for re-use.</p>
+<p>It&#x27;s just a way to create a view that labels artifacts as generic or specific. See <a href="https://guides.visual-paradigm.com/what-is-enterprise-continuum/" target="_blank" rel="noopener noreferrer" class="">this post</a> for more info.</p>
+<p><img decoding="async" loading="lazy" alt="adm phases" src="/assets/images/continuum-f42f8d098a32fcf5e0945e3c94cd9be0.png" width="1024" height="680" class="img_ev3q"></p>
+<blockquote>
+<p>Enterprise Continuum</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" alt="adm phases" src="/assets/images/arch_cont-d9d5ae9263cbb3a92c0fba1238dcc081.png" width="543" height="184" class="img_ev3q"></p>
+<blockquote>
+<p>Architecture Continuum</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-governance-and-capability">Architecture Governance And Capability<a href="#architecture-governance-and-capability" class="hash-link" aria-label="Direct link to Architecture Governance And Capability" title="Direct link to Architecture Governance And Capability" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-governance">Architecture Governance<a href="#architecture-governance" class="hash-link" aria-label="Direct link to Architecture Governance" title="Direct link to Architecture Governance" translate="no">​</a></h3>
+<p>Governance is a system to control the direction of the enterprise. It is committed to hierarchical decision-making within a structure of roles, to help the enterprise achieve its goals. It accounts for the equality of concerns, transparency, and protects the rights and interests of the business. It drives behaviors via measurements and metrics.</p>
+<p>Governance enacts a board to review and guide corporate strategy. Commonly the supervisory board, or executive board. Ensures strategic guidance, management monitoring, and accountability.</p>
+<p>An architecture board publishes architecture contracts,  ensures their implementation, resolves ambiguities, ensures compliance, considers policy changes, validates reports. They don&#x27;t make decisions about Target Architectures (the stakeholders do), but they assess process, recommendations, confidence and completeness.</p>
+<p>There are several levels of governance: Corporate Governance &gt; EA Governance &gt; Business Architecture Governance &gt; Domain Architecture Governance &gt; Implementation Governance.</p>
+<p>TOGAF adopts the governance model from Ramani Naidoo&#x27;s book <em>Corporate Governance</em>. The benefits are discipline, responsibility, accountability, fairness, transparency, and independence.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-capability">Architecture Capability<a href="#architecture-capability" class="hash-link" aria-label="Direct link to Architecture Capability" title="Direct link to Architecture Capability" translate="no">​</a></h3>
+<p>Basically a department in your company for architecture. Consists of roles, org structure, and normal business management capabilities (financial, performance, service, communications, ...). It provides a skilled architect pool, to be used in architecture projects.</p>
+<p>The purpose capabilities are:</p>
+<ul>
+<li class="">Architecture to support strategy (high level, broad scope, 3-10 year targets)</li>
+<li class="">Architecture to support portfolio (high level, single subject scope, 2-5 year targets)</li>
+<li class="">Architecture to support projects (low level, single project scope, &lt; 2 year targets)</li>
+<li class="">Architecture to support solution delivery (very detailed, single project scope, &lt; 2 years)</li>
+</ul>
+<p><em>(this topic is likely to be asked in the exam</em>)</p>
+<p>Funnily enough, you can use the ADM framework to develop an Enterprise Architecture Capability.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="exam-preparation">Exam Preparation<a href="#exam-preparation" class="hash-link" aria-label="Direct link to Exam Preparation" title="Direct link to Exam Preparation" translate="no">​</a></h2>
+<p>Study the ADM phases, techniques, and deliverables. Complete example questions. Test under real conditions. You must answer 40 questions in 60 minutes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="glossary-most-important-definitions">Glossary (Most Important Definitions)<a href="#glossary-most-important-definitions" class="hash-link" aria-label="Direct link to Glossary (Most Important Definitions)" title="Direct link to Glossary (Most Important Definitions)" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="a">A<a href="#a" class="hash-link" aria-label="Direct link to A" title="Direct link to A" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Application Architecture</strong>: describes the structure and interaction of the application systems in an enterprise.</li>
+<li class=""><strong>Architecture</strong>: fundamental concepts or properties of a system in its environment embodied in its elements, relationships and the principles of its design and evolution. The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time.</li>
+<li class=""><strong>Architecture Building Block (ABB)</strong>: architectural component that specifies SBBs at a logical (supplier-independent) level</li>
+<li class=""><strong>Architecture Capability</strong>: part of the Architecture Repository that includes parameters, structures and processes that support its governance</li>
+<li class=""><strong>Architecture Compliance</strong>: The Enterprise and IT Governance functions will define a formal Architecture Compliance review process for reviewing the compliance of all projects to the Enterprise Architecture.</li>
+<li class=""><strong>Architecture Continuum</strong>: a categorization mechanism, with increasing detail and specialization, for the components and artifacts stored in the Architecture Landscape or Reference Library (part of the Architecture Repository)</li>
+<li class=""><strong>Architecture Development Method (ADM)</strong>: multi-phase iterative process for developing an enterprise architecture to shape and govern business transformation.</li>
+<li class=""><strong>Architecture Domain</strong>: architectural area being considered. there are four primary domains: Business, Data, Application, and Technology.</li>
+<li class=""><strong>Architecture Framework</strong>: a conceptual structure to plan, develop, implement, govern, and sustain an architecture.</li>
+<li class=""><strong>Architecture Governance</strong>: In consequence, Architecture Governance is a system by which (Enterprise) Architectures are directed and controlled. The practice of monitoring and directing architecture-level work. The goal is to deliver desired outcomes while adhering to principles, standards, and roadmaps.</li>
+<li class=""><strong>Architecture Landscape</strong>: the set of all architectural assets within an enterprise at particular points in time.</li>
+<li class=""><strong>Architecture Level</strong>: levels provide a way of dividing the landscape into more granular definitions. Not to be confused with Architecture Partitions.</li>
+<li class=""><strong>Architecture Model</strong>: a representation of a subject of interest. Provides a smaller scale, simplified/abstract representation of the subject.</li>
+<li class=""><strong>Architecture Partition</strong>: a subset of the architecture, divided to facilitate its development.</li>
+<li class=""><strong>Architecture Principle</strong>: a qualitative statement intent that should be met by the architecture. Architectural Principles are detailed requirements that must be fulfilled by every implementation project.</li>
+<li class=""><strong>Architecture View</strong> a representation of a system from the perspective of a related set of concerns.</li>
+<li class=""><strong>Architecture Viewpoint</strong>: a specification of the conventions for a particular kind of architecture view. An architecture viewpoint can also be seen the schema of an architecture view.</li>
+<li class=""><strong>Architecture Vision</strong>: a short description of the target architecture that shows its business value.</li>
+<li class=""><strong>Artifact</strong>: a work product that describes an aspect of the architecture. It can be a catalog, diagram, matrix, or document.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="b-c">B-C<a href="#b-c" class="hash-link" aria-label="Direct link to B-C" title="Direct link to B-C" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Baseline</strong>: a spec that has been formally reviewed and agreed upon, that serves as a basis for further development. It can only be changed through formal change control procedures.</li>
+<li class=""><strong>Building Block</strong>: a potentially reusable component that can be combined with other BBs to deliver architectures and solutions.</li>
+<li class=""><strong>Business Architecture</strong>: a representation of holistic, multi-dimensional business views of capabilities, end-to-end value delivery, information, and organizational structure.</li>
+<li class=""><strong>Business Capability</strong>: a particular ability or capacity that a business may possess or exchange to achieve a specific purpose or outcome.</li>
+<li class=""><strong>Business Model</strong>: describes the rationale for how an organization creates, delivers, and captures value.</li>
+<li class=""><strong>Capability</strong>: an ability that an organization, person, or system possesses.</li>
+<li class=""><strong>Capability Architecture</strong>: an architecture that describes the abilities that an enterprise possesses.</li>
+<li class=""><strong>Concern</strong>: an interest in a system relevant to one or more stakeholders.</li>
+<li class=""><strong>Communications/Stakeholder Management</strong>: the management of needs of stakeholders and the execution of communication between practice and stakeholders.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="d-i">D-I<a href="#d-i" class="hash-link" aria-label="Direct link to D-I" title="Direct link to D-I" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Data Architecture</strong>: describes the structure of an enterprise&#x27;s major types and sources of data, logical and physical data assets, data management resources.</li>
+<li class=""><strong>Deliverable</strong>: an architectural work product that is contractually specified and formally reviewed, agreed, and signed off by the stakeholders.</li>
+<li class=""><strong>Digital Architecture</strong>: focuses on a combination of Enterprise Architecture, data science, telecommunications and internet of things (IoT), security, AI, cognitive science, neuroscience, robotics, and social media to deliver operational services.</li>
+<li class=""><strong>Enterprise</strong>: the highest level of description of an organization, including its mission, vision, strategy, and goals. It may span a collection of organizations.</li>
+<li class=""><strong>Enterprise Continuum</strong>: The Enterprise Continuum is a categorization for assets held in the Enterprise Repositories that provides methods for classifying assets, including architecture and solution artifacts as they evolve from generic Foundation Architectures to Organization-Specific Architectures.</li>
+<li class=""><strong>Gap</strong>: a statement of difference between two states.</li>
+<li class=""><strong>Governance</strong>: the discipline of monitoring and guiding the management of a business to deliver the required outcomes.</li>
+<li class=""><strong>Integrated Information Infrastructure Reference Model (III-RM)</strong>: model that focuses on the application-level components and services necessary to provide an integrated information infrastructure.</li>
+<li class=""><strong>Interoperability</strong>: the ability of two or more systems to exchange information and use it. The ability of systems to provide and received services from other systems.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="l-s">L-S<a href="#l-s" class="hash-link" aria-label="Direct link to L-S" title="Direct link to L-S" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Logical</strong>: implementation-independent.</li>
+<li class=""><strong>Metamodel</strong>: a model that describes the entities of the enterprise, their characteristics and relationships.</li>
+<li class=""><strong>Modeling</strong>: technique to construct models which enables a subject to be represented in a form that enables reasoning, insight, and clarity.</li>
+<li class=""><strong>Physical</strong>: real-world implementation, tangible.</li>
+<li class=""><strong>Product Lifecycle Diagram</strong>: a key consideration in defining the business strategy and operations, making it most relevant in &quot;Phase B: Business Architecture&quot; of the ADM</li>
+<li class=""><strong>Request for Architecture Work</strong>: contains the business goals (and changes), strategic plans of the business and changes in the business environment.</li>
+<li class=""><strong>Requirement</strong>: a statement of need which is unambiguous, testable, and necessary for the architecture to be accepted.</li>
+<li class=""><strong>Residual Risk</strong>: level of risk after mitigation was applied</li>
+<li class=""><strong>Roadmap</strong>: an abstract business plan, typically over multiple years.</li>
+<li class=""><strong>Role</strong>: expected behavior of an actor, or the part somebody/something plays in a particular process or event.</li>
+<li class=""><strong>Segment Architecture</strong>: a formal description of areas within an enterprise.</li>
+<li class=""><strong>Solution Architecture</strong>: a description of a discrete and focused business operation or activity, and how IS/IT supports it.</li>
+<li class=""><strong>Solution Building Block (SBB)</strong>: physical component that realizes part or all of one or more logical ABBs. There are business, application, and technology SBBs.</li>
+<li class=""><strong>Solution Continuum</strong>: a categorization mechanism, with increasing detail and specialization, for the components and artifacts stored in the Solution Landscape or Reference Library (part of the Architecture Repository)</li>
+<li class=""><strong>Stakeholder</strong>: a person, team, or organization with interests in the system.</li>
+<li class=""><strong>Standards Library</strong>: collection that can be used to define particular services and components of an org-specific architecture.</li>
+<li class=""><strong>Strategic Architecture</strong>: formal description of the enterprise, providing a framework for operational/change activity, at an executive-level, long-term view.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="t-z">T-Z<a href="#t-z" class="hash-link" aria-label="Direct link to T-Z" title="Direct link to T-Z" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Target Architecture</strong>: a description of the future state of the enterprise. There may be several future states.</li>
+<li class=""><strong>Technology Architecture</strong>: describes the structure and interaction of technology services and components.</li>
+<li class=""><strong>Transition Architecture</strong>: describes an intermediate state of the enterprise that is used to bridge the gap between the baseline and target architectures.</li>
+<li class=""><strong>Value Stream</strong>: representation of an end-to-end collection of activities that create value for a customer.</li>
+<li class=""><strong>Viewpoint Library</strong>: collection of viewpoints contained in the Reference Library.</li>
+<li class=""><strong>Work Package</strong>: set of actions identifier to achieve one or more business objectives. Can be part of a project, a complete project, or a program.</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Learning/Enterprise Architeture/TOGAF/TOGAF_10.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/Learning/Development/pre-commit"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Pre-Commit</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/Learning/Enterprise Architeture/TOGAF/personal_note"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Personal Note</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction-to-enterprise-architecture" class="table-of-contents__link toc-highlight">Introduction To Enterprise Architecture</a><ul><li><a href="#architecture-domains" class="table-of-contents__link toc-highlight">Architecture Domains</a></li><li><a href="#architecture-states" class="table-of-contents__link toc-highlight">Architecture States</a></li><li><a href="#scope-of-architecture" class="table-of-contents__link toc-highlight">Scope Of Architecture</a></li><li><a href="#architecture-levels" class="table-of-contents__link toc-highlight">Architecture Levels</a></li><li><a href="#architecture-partitions" class="table-of-contents__link toc-highlight">Architecture Partitions</a></li><li><a href="#architecture-abstraction-levels" class="table-of-contents__link toc-highlight">Architecture Abstraction Levels</a></li><li><a href="#building-blocks-abb" class="table-of-contents__link toc-highlight">Building Blocks (ABB)</a></li><li><a href="#the-togaf-standard" class="table-of-contents__link toc-highlight">The TOGAF Standard</a></li><li><a href="#ea-purpose-and-benefits" class="table-of-contents__link toc-highlight">EA Purpose and Benefits</a></li></ul></li><li><a href="#architecture-development-method-adm" class="table-of-contents__link toc-highlight">Architecture Development Method (ADM)</a><ul><li><a href="#artifacts-and-deliverables" class="table-of-contents__link toc-highlight">Artifacts And Deliverables</a></li><li><a href="#key-concepts" class="table-of-contents__link toc-highlight">Key Concepts</a></li></ul></li><li><a href="#preliminary-phase" class="table-of-contents__link toc-highlight">Preliminary Phase</a><ul><li><a href="#architecture-principles" class="table-of-contents__link toc-highlight">Architecture Principles</a></li><li><a href="#general-approach" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#architecture-vision-phase-a" class="table-of-contents__link toc-highlight">Architecture Vision Phase A</a><ul><li><a href="#request-for-architecture-work" class="table-of-contents__link toc-highlight">Request For Architecture Work</a></li><li><a href="#communications-plan" class="table-of-contents__link toc-highlight">Communications Plan</a></li><li><a href="#business-scenario-technique" class="table-of-contents__link toc-highlight">Business Scenario Technique</a></li><li><a href="#architecture-requirements-specification" class="table-of-contents__link toc-highlight">Architecture Requirements Specification</a></li><li><a href="#business-principles-goals-and-drivers" class="table-of-contents__link toc-highlight">Business Principles, Goals, and Drivers</a></li><li><a href="#capability-assessment" class="table-of-contents__link toc-highlight">Capability Assessment</a></li><li><a href="#architecture-vision" class="table-of-contents__link toc-highlight">Architecture Vision</a></li><li><a href="#architecture-definition-document" class="table-of-contents__link toc-highlight">Architecture Definition Document</a></li><li><a href="#statement-of-architecture-work" class="table-of-contents__link toc-highlight">Statement of Architecture Work</a></li><li><a href="#general-approach-1" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#business-architecture-phase-b" class="table-of-contents__link toc-highlight">Business Architecture Phase B</a><ul><li><a href="#steps" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#gap-analysis" class="table-of-contents__link toc-highlight">Gap Analysis</a></li><li><a href="#general-approach-2" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#information-systems-architecture-phase-c" class="table-of-contents__link toc-highlight">Information Systems Architecture Phase C</a><ul><li><a href="#application-architecture-artifacts" class="table-of-contents__link toc-highlight">Application Architecture Artifacts</a></li><li><a href="#data-architecture-artifacts" class="table-of-contents__link toc-highlight">Data Architecture Artifacts</a></li><li><a href="#general-approach-3" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#technology-architecture-phase-d" class="table-of-contents__link toc-highlight">Technology Architecture Phase D</a><ul><li><a href="#technology-architecture-artifacts" class="table-of-contents__link toc-highlight">Technology Architecture Artifacts</a></li></ul></li><li><a href="#opportunities-and-solutions-phase-e" class="table-of-contents__link toc-highlight">Opportunities And Solutions Phase E</a><ul><li><a href="#purpose-and-objectives" class="table-of-contents__link toc-highlight">Purpose And Objectives</a></li><li><a href="#steps-1" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#interoperability-requirements" class="table-of-contents__link toc-highlight">Interoperability Requirements</a></li><li><a href="#risk-management" class="table-of-contents__link toc-highlight">Risk Management</a></li><li><a href="#architecture-roadmap" class="table-of-contents__link toc-highlight">Architecture Roadmap</a></li><li><a href="#implementation-and-migration-plan" class="table-of-contents__link toc-highlight">Implementation And Migration Plan</a></li><li><a href="#general-approach-4" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#migration-planning-phase-f" class="table-of-contents__link toc-highlight">Migration Planning Phase F</a><ul><li><a href="#purpose-and-objectives-1" class="table-of-contents__link toc-highlight">Purpose And Objectives</a></li><li><a href="#steps-2" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#implementation-governance-model" class="table-of-contents__link toc-highlight">Implementation Governance Model</a></li><li><a href="#general-approach-5" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#implementation-governance-phase-g" class="table-of-contents__link toc-highlight">Implementation Governance Phase G</a><ul><li><a href="#purpose-and-objectives-2" class="table-of-contents__link toc-highlight">Purpose And Objectives</a></li><li><a href="#steps-3" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#architecture-contracts" class="table-of-contents__link toc-highlight">Architecture Contracts</a></li><li><a href="#compliance-assessment" class="table-of-contents__link toc-highlight">Compliance Assessment</a></li><li><a href="#general-approach-6" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#architecture-change-management-phase-h" class="table-of-contents__link toc-highlight">Architecture Change Management Phase H</a><ul><li><a href="#purpose-and-objectives-3" class="table-of-contents__link toc-highlight">Purpose And Objectives</a></li><li><a href="#steps-4" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#the-change-request" class="table-of-contents__link toc-highlight">The Change Request</a></li><li><a href="#general-approach-7" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#requirements-management" class="table-of-contents__link toc-highlight">Requirements Management</a><ul><li><a href="#purpose-and-objectives-4" class="table-of-contents__link toc-highlight">Purpose And Objectives</a></li><li><a href="#steps-5" class="table-of-contents__link toc-highlight">Steps</a></li><li><a href="#requirements-impact-assessment" class="table-of-contents__link toc-highlight">Requirements Impact Assessment</a></li><li><a href="#general-approach-8" class="table-of-contents__link toc-highlight">General Approach</a></li></ul></li><li><a href="#applying-adm" class="table-of-contents__link toc-highlight">Applying ADM</a><ul><li><a href="#building-block-specification-process" class="table-of-contents__link toc-highlight">Building Block Specification Process</a></li><li><a href="#the-trade-off-method-alternative-architectures-and-trade-offs" class="table-of-contents__link toc-highlight">The Trade-Off Method: alternative architectures and trade-offs</a></li><li><a href="#digital-enterprise" class="table-of-contents__link toc-highlight">Digital Enterprise</a></li></ul></li><li><a href="#content-framework--core-concepts" class="table-of-contents__link toc-highlight">Content Framework &amp; Core Concepts</a><ul><li><a href="#content-framework" class="table-of-contents__link toc-highlight">Content Framework</a></li><li><a href="#enterprise-meta-model" class="table-of-contents__link toc-highlight">Enterprise Meta-model</a></li><li><a href="#architecture-repository" class="table-of-contents__link toc-highlight">Architecture Repository</a></li><li><a href="#enterprise-continuum" class="table-of-contents__link toc-highlight">Enterprise Continuum</a></li></ul></li><li><a href="#architecture-governance-and-capability" class="table-of-contents__link toc-highlight">Architecture Governance And Capability</a><ul><li><a href="#architecture-governance" class="table-of-contents__link toc-highlight">Architecture Governance</a></li><li><a href="#architecture-capability" class="table-of-contents__link toc-highlight">Architecture Capability</a></li></ul></li><li><a href="#exam-preparation" class="table-of-contents__link toc-highlight">Exam Preparation</a><ul><li><a href="#glossary-most-important-definitions" class="table-of-contents__link toc-highlight">Glossary (Most Important Definitions)</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
