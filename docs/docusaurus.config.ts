@@ -23,12 +23,12 @@ const config: Config = {
   url: 'https://luksfarris.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/notes/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  projectName: 'endiliey.github.io',
-  organizationName: 'endiliey',
+  projectName: 'notes',
+  organizationName: 'luksfarris',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   // Even if you don't use internationalization, you can use this field to set
@@ -89,25 +89,20 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Docs',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      // title: 'Farris',
       items: [
+        {
+          to: 'https://farris.com.br',
+          position: 'left',
+          label: 'Farris',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Notebooks',
         }
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,

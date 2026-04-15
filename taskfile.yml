@@ -1,0 +1,21 @@
+version: "3"
+
+tasks:
+  setup:
+    env:
+      NVM_DIR: "~/.nvm"
+    cmds:
+      - ([ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm install v20.20.2)
+      - ([ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm alias default v20.20.2)
+  run_local:
+    cmds:
+      - (cd docs && npm start)
+  deploy:
+    env:
+      DEPLOYMENT_BRANCH: master
+      USE_SSH: true
+      GIT_USER: luksfarris
+      GIT_USER_NAME: luksfarris
+      GIT_USER_EMAIL: "lucas@farris.com.br"
+    cmds:
+      - (cd docs && npm run deploy)
