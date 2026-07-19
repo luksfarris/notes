@@ -88,6 +88,8 @@ Azure Application Gateway distributes incoming web traffic based on URL paths, h
 
 Azure CDNs (Content Delivery Networks) cache and deliver content from edge locations globally, reducing latency and improving performance for users worldwide. 
 
+You can link virtual networks together by using virtual network peering. Peering enables resources in each virtual network to communicate with each other.
+
 ### Storage Services
 
 - Azure Blob Storage: unstructured data for text, binary (images, videos), backups. Offers different tiers with different costs/performance. Organized in containers.
@@ -215,5 +217,3 @@ Prevents resources from being modified or deleted. Can be applied at different s
 - **Defense in depth** uses a series of mechanisms to slow the advancement of an attack that aims to gain unauthorized access to data.
 - **Azure Policy** is a service in Azure that enables you to create, assign, and manage policies that control or audit resources. These policies enforce different rules across all resource configurations so that the configurations stay compliant with corporate standards.
 - **Azure Information Protection** is a cloud-based solution that helps organizations classify, label, and protect sensitive information based on its content.
-
-
