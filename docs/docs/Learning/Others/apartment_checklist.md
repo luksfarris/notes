@@ -44,8 +44,8 @@
 - [ ] Check leakage in shower, bathtub, toilet, and washing machine
 - [ ] Check leaks in heating radiators
 
-<br>
-<br>
+<br/>
+<br/>
 
 ## Electrical
 
