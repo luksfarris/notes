@@ -1,4 +1,4 @@
-# Directions 
+# Directions
 
 - Na rogu - corner
 - Naprzeciwko - opposite
@@ -47,3 +47,14 @@
 
 - Jak doiść do ...? - How do I get to ...?
 - A gdzie jest ...? - And where is ...?
+
+
+## Preposition to use:
+
+- when it's open space: `na`
+- otherwise: `w`
+
+Exceptions:
+- na siłowni
+- na uniwersytecie
+- na poczcie

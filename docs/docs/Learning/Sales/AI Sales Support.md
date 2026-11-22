@@ -1,4 +1,4 @@
-# AI Pre-Sales
+# AI Pre-Sales Technical Support
 
 Yes, we're talking about this. I want to make a list of all the things an AI Architect or Engineer must supply for a successful pre-sales engagement.
 

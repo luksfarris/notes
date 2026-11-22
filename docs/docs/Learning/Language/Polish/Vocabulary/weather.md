@@ -1,0 +1,5 @@
+
+
+## Weather
+
+| Mgła | Fog |

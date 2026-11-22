@@ -1,11 +1,25 @@
 # Handbook For AI/ML Architecture
 
-This handbook is written by myself, to consolidate some fundamentals about AI/ML architecture.
+I wrote this handbook to consolidate some fundamentals about AI/ML architecture.
 
 :::tip
 Make sure you understand the business value of what you're doing. 
 Why it's important to do it, what will it unlock.
 :::
+
+
+```mermaid
+flowchart TD
+    A[IT Landscape Assessment] --> B[Use-Case Selection]
+    subgraph Build
+    C[Use Case Building] --> D[Use Case Tuning]
+    D --> C
+    end
+    Build --finish--> B
+    B --start--> C
+    Build --> E[On-The-Fly Upgrades]
+    
+```
 
 ## Ahead Of The Project
 
