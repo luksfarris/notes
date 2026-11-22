@@ -129,10 +129,13 @@ Anthropic recently released [dynamic workflows for Claude Code](https://claude.c
 With ever larger context windows, agents can grow to become extremely powerful. At the moment, it's even unclear to me if true knowledge will come  from more layers, from more context, or from more data, more pre-training, from more fine-tuning, or some combination of these.
 
 Here are some common augmentations:
-- retrieval context
-- tool-calling
-- memory
-- skills
+
+| Augmentation      | Description                                                                                          | Use Case Example                                                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Retrieval Context | Inject relevant documents or data into the prompt at runtime via semantic or keyword search (RAG)    | A support agent retrieves the relevant knowledge-base articles before answering a question |
+| Tool-Calling      | Give the agent access to functions it can invoke to act on the world or fetch real-time information  | A sales agent calls a CRM's REST API over HTTPS to look up a customer's account status before drafting a reply |
+| Memory            | Persist information across turns or sessions so the agent can recall past interactions and decisions | A personal assistant remembers user preferences and past meeting summaries                 |
+| Skills            | Package domain-specific instructions or sub-agents that the orchestrator can invoke on demand        | An orchestrator delegates a SQL query task to a specialized data-analyst agent             |
 
 The most important work for the AI Engineer is to write crystal clear instructions for when and how to use what.
 

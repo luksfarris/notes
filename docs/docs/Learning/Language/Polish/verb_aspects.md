@@ -27,23 +27,25 @@ There are 4 main types of verb modifications (this is not official, just a way t
 
 ### Keywords to determine the aspect of the verb:
 
-| Niedokonany                        | dokonany            |
-| ---------------------------------- | ------------------- |
-| codziennie (daily)                 | nareszcie (finally) |
-| często (often)                     | nagle (suddenly)    |
-| rzadko (rarely)                    | w końcu (finally)   |
-| od czasu do czasu (sometimes)      | jeden raz (once)    |
-| czasem (often)                     | lubić (to like)     |
-| zaczynać (started)                 | zacząć              |
-| kończyć (finish)                   | skończyć            |
-| długo (for a long period)          |                     |
-| krótko (for a short period)        |                     |
-| od siódmej do ósmej (from 7 to 8)  |                     |
-| (przez) dwie godziny (for 2 hours) |                     |
-| kilka (several) razy               |                     |
-| kilkanaście (a dozen) razy         |                     |
-| zawsze (always)                    |                     |
-| zwykle (usually)                   |                     |
+| Niedokonany                        | Dokonany               |
+| ---------------------------------- | ---------------------- |
+| codziennie (daily)                 | nareszcie (finally)    |
+| często (often)                     | nagle (suddenly)       |
+| rzadko (rarely)                    | w końcu (finally)      |
+| od czasu do czasu (sometimes)      | jeden raz (once)       |
+| czasem (often)                     | lubić (to like)        |
+| zaczynać (started)                 | zacząć                 |
+| kończyć (finish)                   | skończyć               |
+| długo (for a long period)          | w pewnym momencie      |
+| krótko (for a short period)        | wreszcie (finally)     |
+| od siódmej do ósmej (from 7 to 8)  | w pewnej chwili        |
+| (przez) dwie godziny (for 2 hours) | pewnego dnia (one day) |
+| kilka (several) razy               |                        |
+| kilkanaście (a dozen) razy         |                        |
+| zawsze (always)                    |                        |
+| zwykle (usually)                   |                        |
+| dawniej (I used to ...)            |                        |
+| pewnego razu (once upon a time)    |                        |
 
 
 ## Case 1 (Prefixes) Examples

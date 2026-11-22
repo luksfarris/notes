@@ -1,0 +1,8 @@
+
+
+
+Reality: 
+- rzeczywistość
+
+Pollution: 
+- zanieczyszczenie

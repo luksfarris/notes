@@ -84,6 +84,16 @@ Dopełniacz: what can I fill, complete, complement.
 | Feminine  | -y / -i  | -∅ / -y / -i       |
 | Neuter    | -a       | -∅ / -y / -i / -ów |
 
+Masculine:
+- Alive and countable -a/-ów
+- Alive not countable -u/-i
+- Not alive or r: -a/-y
+Feminine:
+- Consonant or -k and -g: i
+- Vowel: y
+Neuter:
+- a
+
 
 ## C: Celownik (Dative) - Komu/czemu daję?
 
